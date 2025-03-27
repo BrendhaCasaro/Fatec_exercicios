@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Criando EX $2 no CAP $1"
+sed -i -e "s/\#define ex[0-9]*/#define ex$2/" ./cap$1.c
+echo """
+#ifdef ex$2
+int main() {
+  char opcao = 's';
+  do {
+    // Codigo aqui
+
+    printf(\"Deseja executar novamente? (s/n): \");
+    scanf(\" %c\", &opcao);
+  } while (opcao == 's' || opcao == 'S');
+}
+#endif
+""" >> cap$1.c
+echo "EX criado"
