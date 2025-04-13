@@ -36,7 +36,7 @@ programa deve gerar os vetores u = {3, 6, 1, 2, 7} e w = {5, 8, 4, 3, 9}.
 
 #include <stdio.h>
 
-#define ex5
+#define ex4
 
 #ifdef ex1
 int main() {
@@ -186,6 +186,63 @@ int main() {
   char opcao = 's';
 
   do {
+    int vet1[2][3];
+
+    int vet2[2][3];
+
+    int soma[2][3];
+
+    // dados vet1
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+
+        puts("Insira dados no vetor 1");
+        scanf("%d", &vet1[i][j]);
+      }
+    }
+
+    // dados vet2
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+
+        puts("Insira dados no vetor 2");
+        scanf("%d", &vet2[i][j]);
+      }
+    }
+
+    puts("");
+    puts("Vetor 1");
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+
+        printf("%d ", vet1[i][j]);
+      }
+      puts("");
+    }
+
+    puts("");
+    puts("Vetor 2");
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+
+        printf("%d ", vet2[i][j]);
+      }
+      puts("");
+    }
+
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+        soma[i][j] = vet1[i][j] + vet2[i][j];
+      }
+    }
+
+    puts("");
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+
+        printf("soma[%d][%d] = %d \n", i, j, soma[i][j]);
+      }
+    }
 
     printf("Deseja executar novamente? (s/n): ");
     scanf(" %c", &opcao);
@@ -195,24 +252,45 @@ int main() {
 #endif
 
 #ifdef ex5
-// 5 - Receba via teclado 10 valores inteiros e ordene por ordem crescente assim
-//     que sao digitados. Guarde-os em um vetor. Mostre ao final os valores
-//     ordenados.
+void ordenar(int *vet) {
+
+  int aux;
+  int n = 10;
+
+  for (int i = 0; i < n; i++) {
+    for (int index = 0; index < n - 1; index++) {
+      if (vet[index] > vet[index + 1]) {
+        aux = vet[index];
+        vet[index] = vet[index + 1];
+        vet[index + 1] = aux;
+      }
+    }
+  }
+}
+
+void imprimir(int *vet) {
+  for (int i = 0; i < 10; i++) {
+    printf("%d ", vet[i]);
+  }
+  puts("");
+}
 
 int main() {
   char opcao = 's';
 
   do {
-    int vet[10];
+    int vet[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 9; i >= 0; i--) {
       puts("Digite um valor qualquer");
       scanf("%d", &vet[i]);
+
+      imprimir(vet);
+
+      ordenar(vet);
     }
 
-    for (int i = 0; i < 10; i++) {
-      /*if()*/
-    }
+    imprimir(vet);
 
     printf("Deseja executar novamente? (s/n): ");
     scanf(" %c", &opcao);
