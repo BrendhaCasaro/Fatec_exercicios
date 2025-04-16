@@ -1,58 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-char nome_musica[3][20];
-char nome_autor[3][20];
-
-void salva_arquivo() {
-  FILE *arquivo = fopen("musicas", "w");
-
-  fwrite(nome_musica, sizeof(nome_musica), 1, arquivo);
-  fwrite(nome_autor, sizeof(nome_autor), 1, arquivo);
-
-  if (fclose(arquivo) == EOF) {
-    puts("Erro ao fechar o arquivo para escrita de dados, tente novamente.");
-    exit(1);
-  }
-}
-
-int verificar_string(char str1[20], char str2[20]) {
-  for (int i = 0; i < 20; i++) {
-    if (str1[i] != str2[i]) {
-      return 0;
-    }
-    if (str1[i] == '\0' || str2[i] == '\0') {
-      break;
-    }
-  }
-
-  return 1;
-}
-
-void inserir_musicas() {
-  for (int i = 0; i < 3; i++) {
-    printf("Digite o nome da %d musica: ", i + 1);
-    scanf("%s", nome_musica[i]);
-
-    printf("Digite o nome do %d autor: ", i + 1);
-    scanf("%s", nome_autor[i]);
-  }
-
-  salva_arquivo();
-}
-
-void lista_musicas() {
-  for (int i = 0; i < 3; i++) {
-    if (nome_musica[i][0] == '*') {
-      continue;
-    }
-    printf("Musica: %s | Autor: %s\n", nome_musica[i], nome_autor[i]);
-  }
-}
-
-#include <stdio.h>
-#include <stdlib.h>
 
 char nome_musica[3][20];
 char nome_autor[3][20];
@@ -100,6 +46,18 @@ void lista_musicas() {
       continue;
     }
     printf("Musica: %s | Autor: %s\n", nome_musica[i], nome_autor[i]);
+  }
+}
+
+void pesquisa_musica() {
+  puts("Digite a musica que voce quer pesquisar: ");
+  char pesquisa[20];
+  gets(pesquisa);
+
+  for (int i = 0; i < 3; i++) {
+    if (verificar_string(pesquisa, nome_musica[i])) {
+      printf("Musica: %s | Autor: %s\n", nome_musica[i], nome_autor[i]);
+    }
   }
 }
 
