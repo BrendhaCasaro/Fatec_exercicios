@@ -35,7 +35,23 @@ public class BuscaBinaria {
     }
 
     public static void main(String[] args) {
-        String[] arr = {"BRENDHA", "CARLOS", "AMANDA", "KELLY", "ANA"};
+        String[] arr = {
+            "FERNANDA", "ZANZA", "BRENDHA", "CARLOS", "AMANDA", "KELLY", "ANA",
+            "ROBERTO", "MARCOS", "PATRICIA", "JOAO", "LUCAS", "MARIANA", "ANDRE",
+            "RAFAELA", "PEDRO", "JULIANA", "GABRIEL", "CAMILA", "RICARDO",
+            "VITORIA", "FABIO", "ISABELA", "SANDRA", "THIAGO", "NATALIA",
+            "PAULO", "TATIANA", "RENATO", "LUANA", "ALINE", "DIEGO", "GUSTAVO",
+            "CRISTINA", "BRUNO", "DANIELA", "MAURICIO", "EDUARDA", "HENRIQUE",
+            "VANESSA", "RAUL", "BRENDA", "SERGIO", "SUZANA", "LEONARDO", "PAULA",
+            "ARTHUR", "ELAINE", "RODRIGO", "MONICA", "CAIO", "LARISSA", "ANTONIO",
+            "SILVIA", "EVANDRO", "FABIANA", "CESAR", "REGINA", "ALBERTO", "CARLA",
+            "VIVIANE", "MATEUS", "ADRIANA", "FELIPE", "BEATRIZ", "EDSON", "HELOISA",
+            "RAIMUNDO", "BIANCA", "WELLINGTON", "GISELE", "FELICIANO", "JESSICA",
+            "MURILO", "ROBERTA", "TALITA", "CLAUDIO", "DÉBORA", "CRISTIANO",
+            "ANGELA", "LUIZ", "ROSA", "ELIANA", "JONAS", "MARCELA", "OTAVIO",
+            "PRISCILA", "IGOR", "KARINA", "ALEXANDRE", "SIMONE", "FÁBIO",
+            "LEANDRO", "ELISA", "RAFAEL", "VICTOR", "SAMARA", "HUDSON", "TAIS"
+        };
 
         sort(arr);
 
