@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="semestre_4" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61ab4790-7447-47f7-9b68-65475ceadace" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/semestre_4/br/com/brendha/semestre4/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semestre_4/br/com/brendha/semestre4/Fidelidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semestre_4/br/com/brendha/semestre4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Agenda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/AgendaContatos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/BuscaBinaria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Contato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/FilaAtendimento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Medico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Recursividade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/Triagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/buscas_eficientes/BuscaLinear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/ordenadores_eficientes/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/semestre_3/recursao/Pasta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Algoritmos/Fatorial e potência.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Algoritmos/ex 1 ao 5.C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Algoritmos/ex 11 ao 15.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Algoritmos/ex 6 ao 10.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Algoritmos/ex nádia - 8 out.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Vetores/array1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Vetores/array2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Vetores/array3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/Vetores/stdbrendha.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/vetor-funcao/1-2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/vetor-funcao/3-6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/vetor-funcao/stdbrendha.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_1/vetor-funcao/testep.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/cap9.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/desafio1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/desafio2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/musicas.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_2/newex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/Agenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/AgendaContatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/BuscaBinaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/FilaAtendimento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/Recursividade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/buscas_eficientes/BuscaLinear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/ordenadores_eficientes/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/ordenadores_eficientes/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/ordenadores_eficientes/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/semestre_3/recursao/Pasta.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BrendhaCasaro&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BrendhaCasaro/Fatec_exercicios.git&quot;,
+    &quot;accountId&quot;: &quot;8ef80bae-267b-439b-9855-949ebf9aaa4f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3A5oiKQfGAEO5FwzyQLkENx9ON9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Fidelidade.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/home/brendha/Fatec_exercicios/semestre_4/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61ab4790-7447-47f7-9b68-65475ceadace" name="Changes" comment="" />
+      <created>1771891918312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771891918312</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="Fatec_exercicios" />
+  </component>
+</project>
