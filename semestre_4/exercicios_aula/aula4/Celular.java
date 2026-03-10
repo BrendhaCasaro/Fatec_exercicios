@@ -13,10 +13,13 @@ public class Celular {
     }
 
     public void recarregar() {
+        //verificar se está cheio
         this.bateria.recarregar();
     }
 
     public void mostrarBemVindo(){
+        // verificar se está vazio a bateria
+        // trocar para desligado se estiver
         if(this.status == Status.Desligado) {
             System.out.println("Celular desligado");
             return;
@@ -27,6 +30,9 @@ public class Celular {
     }
 
     public void desligar() {
+        // poderia ser uma função, diminuiria as linhas do if
+        // bateria.estaVazio()
+        // trocar para desligado se estiver
         if(this.status == Status.Desligado) {
             System.out.println("Celular já está desligado");
             return;
@@ -36,6 +42,7 @@ public class Celular {
     }
 
     public void ligar() {
+        // verificar se está vazio a bateria
         if(this.status == Status.Ligado) {
             System.out.println("Celular já ligado");
             return;
@@ -49,4 +56,6 @@ public class Celular {
         System.out.println(this.bateria.carga);
         System.out.println(this.status);
     }
+
+    // em vez de usar numeros e verificações diretas, usar métodos
 }
