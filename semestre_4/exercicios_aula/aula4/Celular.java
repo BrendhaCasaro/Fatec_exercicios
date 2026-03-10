@@ -4,19 +4,19 @@ public class Celular {
 
     public Celular(Bateria bateria, Status status) {
         this.bateria = bateria;
+
+        if(this.bateria.carga == 0) {
+            this.status = Status.Desligado;
+        }
         this.status = status;
     }
 
     public void recarregar() {
-        if(this.status != Status.Ligado) {
-            System.out.println("Celular desligado");
-            return;
-        }
         this.bateria.recarregar();
     }
 
     public void mostrarBemVindo(){
-        if(this.status != Status.Ligado) {
+        if(this.status == Status.Desligado) {
             System.out.println("Celular desligado");
             return;
         }
@@ -26,15 +26,16 @@ public class Celular {
     }
 
     public void desligar() {
-        if(this.status != Status.Ligado) {
+        if(this.status == Status.Desligado) {
             System.out.println("Celular já está desligado");
             return;
         }
+        this.status = Status.Desligado;
         System.out.println("Tchau");
     }
 
     public void ligar() {
-        if(this.status != Status.Desligado) {
+        if(this.status == Status.Ligado) {
             System.out.println("Celular já ligado");
             return;
         }
