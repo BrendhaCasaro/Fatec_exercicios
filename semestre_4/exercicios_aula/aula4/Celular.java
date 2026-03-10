@@ -5,10 +5,11 @@ public class Celular {
     public Celular(Bateria bateria, Status status) {
         this.bateria = bateria;
 
+        this.status = status;
+
         if(this.bateria.carga == 0) {
             this.status = Status.Desligado;
         }
-        this.status = status;
     }
 
     public void recarregar() {

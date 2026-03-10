@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Celular celular = new Celular(new Bateria(100), 
-        Status.Desligado);
+        Celular celular = new Celular(new Bateria(0), 
+        Status.Ligado);
 
+        celular.mostrarInfos();
+
+        /*
         celular.ligar();
         celular.mostrarInfos();
         celular.mostrarBemVindo();
@@ -10,6 +13,7 @@ public class Main {
         celular.recarregar();
         celular.mostrarInfos();
         celular.desligar();
+        */
     }
 
 }
